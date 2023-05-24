@@ -7,17 +7,21 @@ import { HomeComponent } from './home/home.component';
 import { CitiesComponent } from './cities/cities.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { HomepageImgComponent } from './homepage-img/homepage-img.component';
+import { HomepageInfoComponent } from './homepage-info/homepage-info.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomepageImgComponent,
+    HomepageInfoComponent, HomeComponent, CitiesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    // RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
