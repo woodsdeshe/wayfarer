@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { HomepageImgComponent } from './homepage-img/homepage-img.component';
 import { HomepageInfoComponent } from './homepage-info/homepage-info.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { HomepageInfoComponent } from './homepage-info/homepage-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
     // RouterModule
   ],
   providers: [],
