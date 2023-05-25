@@ -10,20 +10,23 @@ import { RouterModule } from '@angular/router';
 import { HomepageImgComponent } from './homepage-img/homepage-img.component';
 import { HomepageInfoComponent } from './homepage-info/homepage-info.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { DisplaycityComponent } from './displaycity/displaycity.component';
+import { CityRoutesModule } from './cities/city.routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomepageImgComponent,
-    HomepageInfoComponent, HomeComponent, CitiesComponent
+    HomepageInfoComponent, 
+    HomeComponent, 
+    CitiesComponent, 
+    DisplaycityComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    // RouterModule
+    CityRoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
