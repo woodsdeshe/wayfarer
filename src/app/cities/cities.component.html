@@ -1,9 +1,17 @@
-<div class="city-list"  *ngFor="let city of cities">
-  
-    <p>{{city.id}}</p>
-    <p>  <a routerLink="/cities/{{city.id}}">{{city.name}}</a></p>
+<div class="displaycity"></div>
+<div class="container text-left">
+  <div class="row" *ngFor="let city of cities">
+    <div class="col">
+ <div class="card">
+  <div class="card-body">
+   <a routerLink="/cities/{{ city.id }}">{{ city.name }}</a>
+  </div>
 </div>
-<div class="displaycity">
-    
+    </div>
+  </div>
 </div>
 <router-outlet></router-outlet>
+
+
+
+
