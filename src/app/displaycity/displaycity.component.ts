@@ -20,5 +20,6 @@ export class DisplaycityComponent {
         return c.id === parseInt(paramId)
       }))
     })
+    
   }
 }

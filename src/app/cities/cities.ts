@@ -9,7 +9,7 @@ export const cities: Cities[] = [
     {
         id: 1,
         name: 'San Francisco',
-        img: 'imagepath',
+        img: 'https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/ct1vkydy5zb3cdltfmse.jpg',
         post: [
             {"title": "Post 1", 
             "description": "this is the description for post 1!"}, 
