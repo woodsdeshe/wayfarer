@@ -21,12 +21,15 @@ import { CityRoutesModule } from './cities/city.routing.module';
     HomepageInfoComponent, 
     HomeComponent, 
     CitiesComponent, 
-    DisplaycityComponent
+    DisplaycityComponent 
+ 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CityRoutesModule
+    CityRoutesModule, 
+    NgbModule, 
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
