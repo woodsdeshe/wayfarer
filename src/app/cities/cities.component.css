@@ -21,23 +21,23 @@
 }
 
 .card {
-    background-color: #FBECE9;
+    background-color: #C0DDD7;
 }
 
 .card:hover {
-    background-color: #F6BD60;
+    background-color: white;
     cursor: pointer;
 }
 
 a {
     text-decoration: none;
-    color: #131B19;
-    font-family: var(--default-font-family);
+    color: #131B19;font-family:'Courier New', Courier, monospace;
     font-size:1.5rem;
 }
 
 .active-link {
-    background-color: #F7B6B5;
+    background-color: #0D8C71;
+    color: #D3E3E0;
 }
 
 .card:hover,
