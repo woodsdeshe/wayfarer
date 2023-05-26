@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { cities } from './cities';
 import { ActivatedRoute } from '@angular/router';
 import { DisplaycityComponent } from '../displaycity/displaycity.component';
+import { PostsComponent } from '../posts/posts.component';
 
 @Component({
   selector: 'app-cities',

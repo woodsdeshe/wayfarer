@@ -12,6 +12,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DisplaycityComponent } from './displaycity/displaycity.component';
 import { CityRoutesModule } from './cities/city.routing.module';
 import { ShowPageComponent } from './show-page/show-page.component';
+import { FormsModule } from '@angular/forms';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -22,14 +24,16 @@ import { ShowPageComponent } from './show-page/show-page.component';
     HomeComponent, 
     CitiesComponent, 
     DisplaycityComponent,
-     ShowPageComponent 
+     ShowPageComponent,
+     PostsComponent 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CityRoutesModule, 
     NgbModule, 
-    RouterModule
+    RouterModule, 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,6 +3,8 @@ import { RouterModule, Routes} from '@angular/router';
 import { CitiesComponent } from './cities.component';
 import { DisplaycityComponent } from '../displaycity/displaycity.component';
 import { ShowPageComponent } from '../show-page/show-page.component';
+import { PostsComponent } from '../posts/posts.component';
+import { HomepageInfoComponent } from '../homepage-info/homepage-info.component';
 
 const cityRoutes: Routes = [
     {
