@@ -8,7 +8,7 @@ const cityRoutes: Routes = [
         path: 'cities', 
         component: CitiesComponent, 
         children: [
-            {path: 'cities/:id',
+            {path: ':id',
             component: DisplaycityComponent
             }
         ]
