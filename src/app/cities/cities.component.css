@@ -7,6 +7,9 @@
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "poppins", sans-serif;
   }
+.big-container{
+    display:flex;
+}
 
 .card {
     background-color: #FBECE9;
