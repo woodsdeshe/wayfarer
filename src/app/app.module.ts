@@ -30,7 +30,7 @@ import { CityRoutesModule } from './cities/city.routing.module';
     NgbModule, 
     RouterModule
   ],
-  providers: [ActivatedRoute],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
