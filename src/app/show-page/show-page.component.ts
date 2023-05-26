@@ -11,20 +11,20 @@ export class ShowPageComponent implements OnInit {
   cities = cities;
   city: any;
   post: any;
-  postIndex: number = 0;
-
+  cityId: any;
+  postId: any;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe((params) => {
-      const cityId = params['id'];
-      const postId = params['postId'];
-      console.log(params)
-      this.city = cities.find((city) => city.id === cityId);
-      if (this.city) {
-        this.post = this.city.post.find((p: { id: any; }) => p.id === postId);
-      }
-      
-    });
+    this.route.paramMap.subscribe((params) => {
+        let cityParamId = params.get('id') || ''
+        this.cityId = parseInt(cityParamId) 
+        let postParamId = params.get('postId') || ''
+        this.postId = parseInt(postParamId)
+        this.city = cities.find( city => city.id === this.cityId)
+        if(this.city){
+          return this.post = this.city.post.find((p: { id: any; }) => p.id === this.postId)
+        }
+        })
   }
 }

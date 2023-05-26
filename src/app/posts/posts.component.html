@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="no-posts" *ngIf="!receivedData">
+        <p>No results found</p>
+    </div>
+    <div class="display-posts">
+        <p>{{receivedData[0].title}}</p>
+        <p>{{receivedData[0].description}}</p>
+    </div> 
+    <a routerLink="/cities">See Cities</a>
+    <a routerLink="/">Home</a>
+</div>
+
+<router-outlet></router-outlet>

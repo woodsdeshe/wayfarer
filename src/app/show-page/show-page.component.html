@@ -1,6 +1,7 @@
-<div *ngIf="city">
+<div class="container" *ngIf="post">
 <h2>{{ city.name }}</h2>
 <p>{{ post.title }}</p>
 <p>{{ post.description }}</p>
+<a routerLink="/cities/{{city.id}}">Back</a>
 <router-outlet></router-outlet>
 </div>
