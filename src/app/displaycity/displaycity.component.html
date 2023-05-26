@@ -1,18 +1,22 @@
 <div class="both">
-  <app-cities class="app-cities"></app-cities>
-  <div class="citieslist">
-    <div class="card" style="width: 18rem">
-      <img src="..." class="card-img-top" alt="..." />
-      <h1>{{ city.name }}</h1>
-      <div class="card-body"></div>
-
-      <div class="card w-75 mb-3" *ngFor="let p of city.post">
-        <div class="card-body">
-          <h5 class="card-title">{{ p.title }}</h5>
-          <p class="card-text">{{ p.description }}</p>
-        </div>
-      </div>
-    </div>
+<div class="citieslist">
+  <app-cities></app-cities>
+</div>
+<div *ngIf="city" class="display">
+<div class="card" style="width: 100%" >
+  <div  class="card-body">
+    <h1 >{{city.name}}</h1>
+    <img src="{{city.img}}" class="card-img-top" alt="...">
   </div>
+  <h3>Posts</h3>
+  <div class="postcard" *ngFor="let p of city.post">
+  <div class="post-image"><img id="p-image" src={{city.img}} alt="imageofplace"></div>
+  <div class="card-body post">
+    <h5 class="card-title">{{p.title}} </h5>
+    <p class="card-text">{{p.description}}</p>
+  </div>
+</div>
+</div>
+</div>
 </div>
 <router-outlet></router-outlet>
