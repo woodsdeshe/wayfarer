@@ -1,6 +1,54 @@
+:root {
+    --branding-color: #84A59D;
+    --secondary-color: #FBECE9;
+    --text-color: #131B19;
+    --hover-color: #F6BD60;
+    --clicked-color: #F7B6B5;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+  }
+
+.container-wrapper {
+    margin-right: 20px; 
+  }
+
 .container{
     position: absolute; 
     width:65%;
     top:0; 
     right:0;
+    border: 2px solid #F6BD60;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:#a4c4bc;
+}
+
+.city-name {
+    padding: 10px;
+    color:  white;
+    text-shadow: 2px 2px 2px #131b19;
+    font-size: 3rem;
+}
+
+.small-container {
+    display: flex;
+    align-items: center;
+}
+
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F6BD60 ;
+    border-radius: 10px;
+    margin: 10px
+}
+
+.author {
+ font-style: italic;
+}
+
+p {
+    font-family: var(--default-font-family);
 }

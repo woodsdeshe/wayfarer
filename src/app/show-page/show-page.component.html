@@ -1,7 +1,17 @@
-<div class="container" *ngIf="post">
-<h2>{{ city.name }}</h2>
-<p>{{ post.title }}</p>
-<p>{{ post.description }}</p>
-<a routerLink="/cities/{{city.id}}">Back</a>
-<router-outlet></router-outlet>
-</div>
+<div class="container-wrapper">
+    <div class="container" *ngIf="post">
+      <div class="small-container">
+        <div class="post-image">
+          <img id="p-image" src="{{ city.img }}" alt="imageofplace" />
+        </div>
+        <h2 class="city-name">{{ city.name }}</h2>
+      </div>
+      <div class="post-details">
+        <h4 class="post-title">{{ post.title }}</h4>
+        <p class="author">{{ post.author }}</p>
+        <p class="post">{{ post.description }}</p>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  
