@@ -1,7 +1,6 @@
 .container{
-    background-color: orange;
-    color: black;
     position: absolute; 
-    top:50%; 
+    width:65%;
+    top:0; 
     right:0;
 }
