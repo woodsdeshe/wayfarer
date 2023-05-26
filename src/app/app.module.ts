@@ -11,6 +11,7 @@ import { HomepageInfoComponent } from './homepage-info/homepage-info.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DisplaycityComponent } from './displaycity/displaycity.component';
 import { CityRoutesModule } from './cities/city.routing.module';
+import { ShowPageComponent } from './show-page/show-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { CityRoutesModule } from './cities/city.routing.module';
     HomepageInfoComponent, 
     HomeComponent, 
     CitiesComponent, 
-    DisplaycityComponent 
+    DisplaycityComponent, ShowPageComponent 
   ],
   imports: [
     BrowserModule,

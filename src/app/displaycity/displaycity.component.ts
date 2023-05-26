@@ -10,6 +10,8 @@ import { ActivatedRoute } from '@angular/router';
 
 export class DisplaycityComponent implements OnInit{
   city: any;
+
+
   constructor(private route: ActivatedRoute){}
 
   ngOnInit(): void {
