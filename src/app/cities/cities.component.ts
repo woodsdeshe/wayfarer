@@ -11,6 +11,8 @@ import { DisplaycityComponent } from '../displaycity/displaycity.component';
 export class CitiesComponent implements OnInit{
   cities = cities
   city: any;
+  activeLinkId: any | null = null;
+
   constructor(private route: ActivatedRoute){
   }
 
