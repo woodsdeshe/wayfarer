@@ -2,10 +2,10 @@
 <div class="citieslist">
   <app-cities></app-cities>
 </div>
-<div class="display">
+<div *ngIf="city" class="display">
 <div class="card" style="width: 100%" >
-  <div class="card-body">
-    <h1>{{city.name}}</h1>
+  <div  class="card-body">
+    <h1 >{{city.name}}</h1>
     <img src="{{city.img}}" class="card-img-top" alt="...">
   </div>
   <h3>Posts</h3>
