@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
 import { CitiesComponent } from './cities.component';
 import { DisplaycityComponent } from '../displaycity/displaycity.component';
+import { ShowPageComponent } from '../show-page/show-page.component';
 
 const cityRoutes: Routes = [
     {
@@ -10,7 +11,9 @@ const cityRoutes: Routes = [
         children: [
             {path: ':id',
             component: DisplaycityComponent
-            }
+            },
+            {path: ':id/posts/:postId', 
+            component: ShowPageComponent}
         ]
     }
 ]

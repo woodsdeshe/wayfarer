@@ -28,7 +28,7 @@ import { ShowPageComponent } from './show-page/show-page.component';
     AppRoutingModule,
     CityRoutesModule, 
     NgbModule, 
-    RouterModule, 
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,10 +19,12 @@ export class ShowPageComponent implements OnInit {
     this.route.params.subscribe((params) => {
       const cityId = params['id'];
       const postId = params['postId'];
+      console.log(params)
       this.city = cities.find((city) => city.id === cityId);
       if (this.city) {
-        this.post = this.city.post.find((p: { id: any; }) => p.id === this.postIndex);
+        this.post = this.city.post.find((p: { id: any; }) => p.id === postId);
       }
+      
     });
   }
 }
