@@ -1,0 +1,21 @@
+:root {
+    --branding-color: #84A59D;
+    --secondary-color: #FBECE9;
+    --text-color: #131B19;
+    --hover-color: #F6BD60;
+    --clicked-color: #F7B6B5;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+  }
+
+.infohome {
+font-family:'Courier New', Courier, monospace;
+color:#085948;
+font-weight: bold;
+margin-bottom: 15%;
+}
+
+.phome {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1c5447
+}
