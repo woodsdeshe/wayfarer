@@ -3,8 +3,8 @@
   <div class="row" *ngFor="let city of cities">
     <div class="col">
  <div class="card">
-  <div class="card-body"  [ngClass]="{'active-link': activeLinkId === city.id}"
-  (click)="activeLinkId = city.id">
+  <div class="card-body" [ngClass]="{'active-link': activeLinkId === city.id}"
+  (click)="activeLinkId = city.id" routerLink="/cities/{{ city.id }}" >
    <a routerLink="/cities/{{ city.id }}" >{{ city.name }}</a>
   </div>
 </div>
