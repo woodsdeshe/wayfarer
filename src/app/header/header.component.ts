@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   canSeeSearch: boolean = false;
-  toggleSearchBar() {
+  toggleSearchBar(): void {
       this.canSeeSearch = false 
   }
-  searchBack() {
+  searchBack(): void{
     this.canSeeSearch = true;
   }
 }
