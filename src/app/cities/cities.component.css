@@ -27,3 +27,15 @@ a {
     background-color: #F7B6B5;
 }
 
+.card:hover,
+.card:active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); 
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    margin-right: 10px;
+}
+

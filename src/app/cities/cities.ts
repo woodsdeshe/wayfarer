@@ -9,7 +9,7 @@ export const cities: Cities[] = [
     {
         id: 1,
         name: 'San Francisco',
-        img: 'imagepath',
+        img: '../../assets/images/zanza.jpg',
         post: [
             {"title": "Post 1", 
             "description": "this is the description for post 1!"}, 
@@ -24,7 +24,7 @@ export const cities: Cities[] = [
     {
         id: 2,
         name: 'London',
-        img: 'imagepath',
+        img: '../../assets/images/london.png',
         post: [
             {"title": "Post 5", 
             "description": "this is the description for post 5!"}, 
@@ -39,7 +39,7 @@ export const cities: Cities[] = [
     {
         id: 3,
         name: 'Dar es Salaam',
-        img: 'imagepath',
+        img: '../../assets/images/dares.png',
         post: [
             {"title": "Post 9", 
             "description": "this is the description for post 9!"}
@@ -48,7 +48,7 @@ export const cities: Cities[] = [
     {
         id: 4,
         name: 'Amsterdaam',
-        img: 'imagepath',
+        img: '../../assets/images/amdam Medium.jpeg',
         post: [
             {"title": "Post 10", 
             "description": "this is the description for post 10!"}, 
