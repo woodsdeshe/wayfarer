@@ -21,7 +21,8 @@ import { ShowPageComponent } from './show-page/show-page.component';
     HomepageInfoComponent, 
     HomeComponent, 
     CitiesComponent, 
-    DisplaycityComponent, ShowPageComponent 
+    DisplaycityComponent,
+     ShowPageComponent 
   ],
   imports: [
     BrowserModule,
