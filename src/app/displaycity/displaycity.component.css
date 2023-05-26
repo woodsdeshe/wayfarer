@@ -19,7 +19,7 @@
 .card {
   padding: 20px;
   justify-content: space-between;
-  background-color:#84a59d;
+  background-color:#a4c4bc;
 }
 .card-body {
   display: flex;
@@ -36,7 +36,7 @@
 .card-body > img {
   width: 60%;
   border-radius: 10px;
-  border: 4px solid #fbece9;
+  border: 4px solid #F6BD60;
 }
 .post {
   display: flex;
@@ -63,7 +63,8 @@
 h3 {
   padding: 10px;
   color:  #131b19;
-  text-shadow: 2px 2px 2px solid white;
+  font-size:2rem;
+  font-weight: bolder;
 }
 img {
   min-height: 100%;
