@@ -1,1 +1,24 @@
+:root {
+    --branding-color: #84A59D;
+    --secondary-color: #FBECE9;
+    --text-color: #131B19;
+    --hover-color: #F6BD60;
+    --clicked-color: #F7B6B5;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+  }
+
+.card {
+    background-color: #FBECE9;
+}
+
+.card:hover {
+    background-color: #F6BD60;
+}
+
+
+
+.active-link {
+    background-color: #F7B6B5;
+}
 
