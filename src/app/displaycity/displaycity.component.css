@@ -7,23 +7,15 @@
 }
 .both{ 
     display: flex;
-    height: 100vh;
     align-items: center;
 }
 
-.app-cities {
-  flex: 1;
-}
-
-.citieslist {
-    flex: 1;
-    display: flex;
-} 
- .citieslist{
-    flex: 1;
-}
 .display {
-  flex: 2;
+  max-width:65%;
+  min-width:65%;
+  position: absolute;
+  top:0; 
+  right:0;
 }
 .card {
   padding: 20px;

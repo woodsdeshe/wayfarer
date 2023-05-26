@@ -9,6 +9,15 @@
   }
 .big-container{
     display:flex;
+    width:100%;
+    position: relative;
+}
+.left-column{
+    max-width:35%;
+    min-width:35%;
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 .card {
