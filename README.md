@@ -59,7 +59,7 @@ A user should be able to:
 
 ## Wireframes
 
-![Wireframe of Wayfarer App]()
+![Wireframe of Wayfarer App](./src/assets/images/wireframes.png)
 
 ## Hurdles
 
