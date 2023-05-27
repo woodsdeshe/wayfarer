@@ -8,7 +8,6 @@
 .both{ 
     display: flex;
 }
-
 .display {
   max-width:65%;
   min-width:65%;
@@ -72,4 +71,8 @@ img {
 
 p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-title > a{
+  text-decoration: none;
+  color: #131b19;
 }

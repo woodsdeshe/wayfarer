@@ -10,6 +10,7 @@
         <h4 class="post-title">{{ post.title }}</h4>
         <p class="author">{{ post.author }}</p>
         <p class="post">{{ post.description }}</p>
+        <a routerLink="/cities/{{city.id}}">Back</a>
       </div>
       <router-outlet></router-outlet>
     </div>
