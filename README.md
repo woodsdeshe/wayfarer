@@ -67,7 +67,7 @@ A user should be able to:
 
 - Nesting Routes within the Cities Component - We wanted to have the information for each city display next to the list of cities. In order to do that, we knew we had to nest routes from one component within another component but had trouble figuring out how to do that. By going through the lesson notes and walking through the steps of how to nest the routes, we were able to get our display elements to appear next to our city list.
 
-- Displaying list of posts based on search - We had a difficult time getting the posts to display based on the keyword in the search tab. In order to get that to work, we had to create a service in order to link the data from our posts to a new router path. Once we made those changes, we were able to see the list of posts displayed on a new path.
+- Displaying list of posts based on search - We had a difficult time getting the posts to display based on the keyword in the search tab. In order to get that to work, we had to create a service in order to link the data between our components. Once we made those changes, we were able to see the list of posts. 
 
 ## Installation Instructions
 
