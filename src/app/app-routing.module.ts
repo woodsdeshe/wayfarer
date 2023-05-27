@@ -6,7 +6,7 @@ import { PostsComponent } from './posts/posts.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent }, 
-    {path: 'pinnapple', component: PostsComponent}
+    {path: 'allposts', component: PostsComponent}
     
 
 ];
