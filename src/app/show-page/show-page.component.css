@@ -21,8 +21,12 @@
     margin: 0 auto;
     padding: 10px;
     background-color:#a4c4bc;
+    padding:50px;
 }
-
+.post-title{
+    font-size:2rem;
+    font-weight:bolder;
+}
 .city-name {
     padding: 10px;
     color:  white;
@@ -38,7 +42,7 @@
 
 img {
     object-fit: cover;
-    width: 200px;
+    width: 300px;
     height: 200px;
     border: 2px solid #F6BD60 ;
     border-radius: 10px;
@@ -51,4 +55,8 @@ img {
 
 p {
     font-family: var(--default-font-family);
+    font-size: 1.5rem;
+}
+a{
+    font-size:1.5rem;
 }

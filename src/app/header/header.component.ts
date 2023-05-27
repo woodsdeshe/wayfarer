@@ -23,9 +23,10 @@ export class HeaderComponent{
   onSubmit(){
     if(this.keyword){
       let searchResults = this.cities.flatMap(city => city.post)
-      this.arrayOfPosts = searchResults.filter(post=>post.title.includes(this.keyword))
+      this.arrayOfPosts = searchResults.filter(post=>post.description.includes(this.keyword))
       this.dataService.setData(this.arrayOfPosts);
+      this.keyword='';
     }
-    this.route.navigate(['/pinnapple'])
+    this.route.navigate(['/allposts'])
     }
 }

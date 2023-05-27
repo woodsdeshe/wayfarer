@@ -9,8 +9,8 @@
   <div class="postcard" *ngFor="let p of city.post">
   <div class="post-image"><img id="p-image" src={{city.img}} alt="imageofplace"></div>
   <div class="card-body post">
-    <h5 class="card-title"><a routerLink="/cities/{{city.id}}/posts/{{p.id}}">{{p.title}}</a>
-    </h5>
+    <h2 class="card-title"><a routerLink="/cities/{{city.id}}/posts/{{p.id}}">{{p.title}}</a>
+    </h2>
     <p class="card-text">{{p.description}}</p>
   </div>
 </div>

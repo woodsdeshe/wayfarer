@@ -39,7 +39,8 @@ a{
     text-decoration: none;
     color: #435551;
     &:hover{
-        background-color: #F6BD60;;
+        background-color:#374643;
+        color: white;
     }
 }
 .card {
