@@ -93,12 +93,14 @@ export const cities: Cities[] = [
     img: '../../assets/images/amflag.png',
     post: [
       {
+        id: 1,
         title: 'Stays',
         author: 'John Doe',
         description:
           'Hotel TwentySeven. The Dam Square, overlooking the eminent monument and the Royal Palace. Not a single detail has gone unnoticed',
       },
       {
+        id: 2,
         title: 'Food',
         author: 'John Doe',
         description: 'Restaurant Klein BREDA, known for their cozy feel, and comforting food',

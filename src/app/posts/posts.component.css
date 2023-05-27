@@ -1,3 +1,10 @@
+.link-container{
+  display:flex; 
+  margin: 0 auto;
+  width:100%;
+  justify-content: center;
+  margin-top:20px;
+}
 .container{
     width:80vw;
     height:100vh;
@@ -6,11 +13,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
     border-radius: 10px;
     border: 4px solid #84a59d;
     background-color: #a4c4bc;
-
+    padding-top:50px;
 }
 .no-posts > h6{
     margin-top:30px;
