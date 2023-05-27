@@ -1,13 +1,20 @@
 <div class="container">
-    <div class="no-posts" *ngIf="!receivedData">
-        <p>No results found</p>
+    <div class="links">
+        <a routerLink="/cities">See Cities</a>
+        <a routerLink="/">Home</a>
     </div>
-    <div class="display-posts">
-        <p>{{receivedData[0].title}}</p>
-        <p>{{receivedData[0].description}}</p>
+    <div class="no-posts" *ngIf="!receivedData" >
+        <h6>No results found</h6>
+        <p>please try modifying your search results</p>
+    </div>
+    <div class="postcard" *ngFor="let data of receivedData">
+        <div class="post-image">🚩</div>
+        <div class="card-body post">
+              <h5 class="card-title">{{data.title}}</h5> 
+                <p class="card-text">{{data.description}}</p>
+        </div>
     </div> 
-    <a routerLink="/cities">See Cities</a>
-    <a routerLink="/">Home</a>
+   
 </div>
 
 <router-outlet></router-outlet>
