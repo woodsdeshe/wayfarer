@@ -98,6 +98,6 @@ If either one is not installed, you can download and install them from the [Node
 6. If you did not elect to automatically open once the server started, you make visit http://localhost:4200 to visit our angular application! 
 
 ## Credits
-- Kevin Barrios - Assisted us in solving our issues with Git.
+- [Kevin Barrios]() - Assisted us in solving our issues with Git.
 - Leo Rodriguez - Assisted us in debugging our code throughout the project.
-- Kelsey Halley, Dominique Collins, and DeShe Woods - Developers that assisted in the development of the Wayfarer app.
+- [Kelsey Halley](https://github.com/Halleywood), [Dominique Collins](https://github.com/NIkkiDC), and DeShe Woods - Developers that assisted in the development of the Wayfarer app.
